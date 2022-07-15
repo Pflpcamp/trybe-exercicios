@@ -1,0 +1,10 @@
+.titulo-e-p {
+    text-align: center;
+}
+ul:hover {
+    background-color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+ul {
+    list-style: none;
+}
