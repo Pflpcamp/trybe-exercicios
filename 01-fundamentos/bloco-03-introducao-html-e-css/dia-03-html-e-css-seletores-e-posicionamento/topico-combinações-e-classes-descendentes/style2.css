@@ -1,0 +1,53 @@
+ol li {
+background-color: yellow;
+}
+.par {
+    color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+.header{
+    color: red;
+}
+h1.header{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li.italico {
+    font-weight: bold;
+}
+.cor {
+    color: blue;
+}
+.bgcor {
+    background-color: pink;
+}
+.stack:hover {
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+}
+.w3s:hover {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+.devmo:hover {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.devdoc:hover {
+    font-weight: bold;
+    color: goldenrod;
+    text-decoration: none;
+}
+.trybe:hover {
+    font-weight: bold;
+    color: greenyellow;
+    text-decoration: none;
+}
