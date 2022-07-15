@@ -1,0 +1,25 @@
+div:hover{
+    border-style: dotted;
+    padding-top: 10px;
+}
+#first-div{
+    background-color: blue;
+}
+#second-div{
+    background-color: brown;
+}
+#third-div{
+    background-color: aqua;
+    height: 100px;
+    padding-top: 30px;
+    margin: 15px 0px
+}
+#fourth-div{
+    background-color: darkgreen;
+}
+#fifth-div{
+    background-color: yellowgreen;
+}
+h3 {
+    font-style: italic;
+}
