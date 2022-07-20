@@ -6,9 +6,13 @@ Porcentagem >= 60 -> D
 Porcentagem >= 50 -> E
 Porcentagem < 50 -> F */
 
-let nota = 45
+let nota = -10
 
-if(nota >= 90){
+if(nota > 100 || nota < 0){
+    console.log("ERRO 404")
+}
+
+else if(nota >= 90){
     console.log("Nota A")
 }
 else if(nota >= 80 && nota < 90){
@@ -23,6 +27,6 @@ else if(nota >= 60 && nota < 70){
 else if(nota >=50 && nota < 60){
     console.log("Nota E")
 }
-else {
+else if(nota < 50){
     console.log("Nota F")
 }
