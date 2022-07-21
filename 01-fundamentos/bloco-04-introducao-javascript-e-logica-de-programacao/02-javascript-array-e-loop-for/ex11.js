@@ -12,6 +12,4 @@ for(let i = 1;i < numbers.length;i++){
     }
 }
 
-for(let x = 0; x < numbers.length;x++){
-    console.log(numbers[x]);
-}
+console.log(numbers);
