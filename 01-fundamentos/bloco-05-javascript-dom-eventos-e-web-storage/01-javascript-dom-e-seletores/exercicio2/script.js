@@ -15,6 +15,19 @@ function mostraTexto() {
     return console.log(document.getElementsByTagName("p")[0].innerText +'\n'+ document.getElementsByTagName("p")[1].innerText + '\n' + document.getElementsByTagName("p")[2].innerText);
     }
 
+function textoParaMaiusculo() {
+    let tamanho = document.getElementsByTagName("p").length;
+    for(i = 0;i < tamanho;i++){
+        document.getElementsByTagName("p")[i].style.textTransform = 'uppercase'; 
+    }
+}
+
+mudeCor();
+mudeTexto();
+mudeCorCentro();
+mostraTexto();
+textoParaMaiusculo();
+corrigeTexto();
 
 
 
