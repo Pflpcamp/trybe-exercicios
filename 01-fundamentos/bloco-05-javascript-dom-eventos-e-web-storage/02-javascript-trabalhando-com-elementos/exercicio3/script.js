@@ -1,4 +1,4 @@
-/*let elementList = document.getElementById('pai').children;*/
+/*Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.*/
 const pai = document.getElementById('pai');
 
 for(i = pai.children.length - 1;i >= 0;i--){
