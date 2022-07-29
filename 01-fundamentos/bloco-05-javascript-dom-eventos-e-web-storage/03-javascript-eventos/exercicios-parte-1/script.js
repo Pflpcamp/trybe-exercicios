@@ -9,16 +9,6 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // 1. Copie esse arquivo e edite apenas ele;
 // 1.1. Antes de começar os exercícios, use o LiveServer para dar uma olhada em como está a página no navegador.
 // 1.2. Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
-
-
-// 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
-// com a classe 'tech';
-
-
-
-// 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
-// a cor do mesmo;
-
 // Segue abaixo um exemplo do uso de event.target:
 
 
@@ -50,6 +40,20 @@ function addTech(event) {
     }
 }
 
+// 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
+// com a classe 'tech';
+function techDigitada() {
+  if(firstLi.className === "tech"){
+    firstLi.innerText = input.value;
+  }
+  else if(secondLi.className === "tech"){
+    secondLi.innerText = input.value;
+  }
+  else if(thirdLi.className === "tech"){
+    thirdLi.innerText = input.value;
+  }
+}
+
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 function toWebPage() {
@@ -62,7 +66,7 @@ function changeColor() {
 }
 myWebpage.addEventListener('mouseover', changeColor);
 myWebpage.addEventListener('dblclick', toWebPage);
-input.addEventListener('input', addTech)
+input.addEventListener('input', techDigitada);
 firstLi.addEventListener('click', addTech);
 secondLi.addEventListener('click', addTech);
 thirdLi.addEventListener('click', addTech);
