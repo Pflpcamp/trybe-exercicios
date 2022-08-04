@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <fieldset id="form-field">
+      <span>Nome</span>
+      <input minlength="10" maxlength="40" type="text" id="input-name" class="input-validation">
+      <br>
+      <br>
+      <span>Email</span>
+      <input minlength="10" maxlength="50" type="email" id="input-email" class="input-validation">
+      <br>
+      <br>
+      <label for="radio-1">
+        <input type="radio" name="opções" id="radio-1" class="radio" value="Cidade"> Cidade
+      </label>
+      <label for="radio-2">
+        <input type="radio" name="opções" id="radio-2" class="radio" value="Campo"> Campo
+      </label>
+      <label for="radio-3">
+        <input type="radio" name="opções" id="radio-3" class="radio" value="Praia"> Praia
+      </label>
+      <label for="radio-4">
+        <input type="radio" name="opções" id="radio-4" class="radio" value="Montanhas"> Montanhas
+      </label>
+      <br>
+      <br>
+      <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+      <textarea maxlength="500" name="resposta" id="text-area" cols="30" rows="10" class="input-validation"></textarea>
+      <br>
+      <span>Data:</span>
+      <input type="date" id="input-date">
+      <br>
+      <label for="input-checkbox">
+        <span>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</span>
+        <input type="checkbox" id="input-checkbox">
+      </label>
+      <br>
+      <label for="input-checkbox-2">
+        <span>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</span>
+        <input type="checkbox" id="input-checkbox-2">
+      </label>
+    </fieldset>
+    <br>
+    <button type="submit" id="botao-enviar">Enviar</button>
+    <button id="botao-apagar">Apagar</button>
+  </form>
+<script src="script.js"></script>   
+</body>
+</html>
