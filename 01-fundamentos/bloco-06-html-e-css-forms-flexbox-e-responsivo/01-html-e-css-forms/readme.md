@@ -4,28 +4,40 @@
 
 
 
-### Exercicio 1: Vamos praticar um pouco, criando uma tela de login? 🔥
+### Exercicio 1: Vamos praticar um pouco, criando uma tela de login? 
 
-- Adicione os campos de entrada para email e senha.
+1. Adicione os campos de entrada para email e senha.
 
-- Adicione um checkbox com o texto Lembre-me.
+2. Adicione um checkbox com o texto Lembre-me.
 
-- Adicione um botão com o texto Entrar.
+3. Adicione um botão com o texto Entrar.
 
-- Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
+4. Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
 
-- Adicione o atributo required para os campos de email e senha.
+5. Adicione o atributo required para os campos de email e senha.
 
-- Adicione o atributo autocomplete="off" para o campo de email.
+6. Adicione o atributo autocomplete="off" para o campo de email.
 
-- Adicione o atributo autofocus para o campo de email.
-
-
+7. Adicione o atributo autofocus para o campo de email.
 
 
+### Exercicio 2: Para Fixar
+
+Copie os três elementos abaixo (a, input type="text", checkbox) em sua página.
+```
+<a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
+<input type="text" id="input-text"/>
+<input type="text" id="input-text"/>
+```
 
 
-### Exercicio 2: O exercício hoje será desenvolver uma página web com o formulário da TrybeTrip. A estruturação de sua página deverá ficar semelhante com a imagem abaixo.
+2. Adicione um evento click no elemento checkbox que possui o id input-checkbox. Na função do evento, implemente o método .preventDefault() para previnir o comportamento padrão do elemento. Ou seja, ao clicar na caixinha, nada deve acontecer.
+
+3. Adicione um evento keypress no elemento input type="text" que possui o id input-text. Na função do evento, implemente o método .preventDefault() de forma que somente o caractere a (letra 'a' minúscula) possa ser digitado na caixinha. (dica: para capturar a tecla digitada, utilize o event.key)
+
+
+
+### Exercicio 3: O exercício hoje será desenvolver uma página web com o formulário da TrybeTrip. A estruturação de sua página deverá ficar semelhante com a imagem abaixo.
 ![alt text](https://assets.app.betrybe.com/fundamentals/html-forms/images/Excalidraw-forms-94cb593582e99fd08f284274fd8b50ab.png)
 
 1. Crie o costume de adicionar ID's a elementos únicos e classes a elementos com comportamentos similares, pois isso facilitará muito sua vida como pessoa desenvolvedora;  
