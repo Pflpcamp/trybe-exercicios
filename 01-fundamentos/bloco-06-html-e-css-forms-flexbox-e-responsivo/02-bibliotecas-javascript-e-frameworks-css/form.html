@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <form action="">
+    <fieldset id="form-field">
+      <div class="row">
+        <div class="col">
+          <span class="form-label">Nome</span>
+          <input class="form-control" minlength="10" maxlength="40" type="text" id="input-name" class="input-validation" required aria-describedby="name-help">
+          <span id="name-help" class="form-text">De 10 a 50 characteres</span>
+        </div>
+        <div class="col">
+          <span>Email</span>
+          <input class="form-control"  minlength="10" maxlength="50" type="email" id="input-email" class="input-validation" required aria-describedby="email-control">
+          <div id="email-control" class="form-text">Não vamos compartilhar seu email</div>
+        </div>
+      </div>
+      <br>
+      <div class="form-label">Qual seu destino desejado?</div>
+      <div class="row">
+        <label class="form-check-label col" for="radio-1">
+          <input type="radio" class="form-check-input" name="opções" id="radio-1" class="radio" value="Cidade"> Cidade
+        </label>
+        <label class="form-check-label col" for="radio-2">
+          <input type="radio" class="form-check-input" name="opções" id="radio-2" class="radio" value="Campo"> Campo
+        </label>
+      </div>
+      <div class="row">
+        <label class="form-check-label col" for="radio-3">
+          <input type="radio" class="form-check-input" name="opções" id="radio-3" class="radio" value="Praia"> Praia
+        </label>
+        <label class="form-check-label col" for="radio-4">
+          <input type="radio" class="form-check-input" name="opções" id="radio-4" class="radio" value="Montanhas"> Montanhas
+        </label>
+      </div>
+      <br>
+      <br>
+      <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+      <textarea class="form-control" maxlength="500" name="resposta" id="text-area" cols="30" rows="10" class="input-validation"></textarea>
+      <br>
+      <br>
+      <div class="form-check">
+        <input type="checkbox" id="input-checkbox">
+        <label for="input-checkbox" class="form-label">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+      </div>
+      <div class="form-check" >
+        <label for="input-checkbox-2">
+          <input type="checkbox" id="input-checkbox-2">
+          <span>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</span>
+        </label>
+        <br>
+        <div id="date-container">
+            <label for="input-date" class="form-label">Data</label>
+            <input class="form-control" type="date" id="input-date">
+        </div>
+      </div>
+    </fieldset>
+    <br>
+    <button class="btn btn-primary" type="submit" id="botao-enviar">Enviar</button>
+    <button class="btn btn-primary" id="botao-apagar">Apagar</button>
+  </form>
+<script src="script.js"></script>   
+</body>
+</html>
